@@ -15,11 +15,9 @@ try {
     //Server settings
     //  $mail->SMTPDebug = SMTP::DEBUG_SERVER;      
     //Enable verbose debug output
-    $server_email = 'mzuire@yahoo.co.uk';
-    $server_email_pwd = 'jtaupaanqwzigomk';
 
-    // $server_email = 'mazwanjilani@gmail.com';
-    // $server_email_pwd = 'wifrmolspljcfqdu';
+    $server_email = 'mazwanjilani@gmail.com';
+    $server_email_pwd = 'wifrmolspljcfqdu';
     
     $mail->isSMTP();                                            //Send using SMTP
     // $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
@@ -59,10 +57,6 @@ try {
 
 // Reference: https://github.com/PHPMailer/PHPMailer
 // If you use gmail for the server email, ensure app. password has been set. SMTPGMAIL, get the 16 code for the password for this app.
-
-
-// mzuire@yahoo.co.uk
-// jtaupaanqwzigomk
 
 // mazwanjilani@gmail.com
 // wifrmolspljcfqdu

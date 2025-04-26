@@ -20,8 +20,8 @@ try {
     $server_email_pwd = 'wifrmolspljcfqdu';
     
     $mail->isSMTP();                                            //Send using SMTP
-    // $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-    $mail->Host       ='smtp.mail.yahoo.com';
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    // $mail->Host       ='smtp.mail.yahoo.com';
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = $server_email;                     //SMTP username
     $mail->Password   = $server_email_pwd;                               //SMTP password
@@ -31,8 +31,8 @@ try {
 
     //Recipients
     $mail->setFrom($server_email, 'Zairul');
-    $mail->addAddress('mazwanjilani@gmail.com', 'Mazwan Jilani');     //Add a recipient
-    // $mail->addAddress('ellen@example.com');               //Name is optional
+    $mail->addAddress('mazwanjilani@gmail.com', 'Mazwan Jilani');     //Add a recipient //Name is optional
+    // $mail->addAddress('ellen@example.com');               
     $mail->addReplyTo($server_email, 'Zairul');
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
